@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skills"
 import Competances from "./components/Competances/Competances"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Contact/Contact"
+import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Competances />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
