@@ -13,7 +13,7 @@ export const navLinks = [
   { url: "#resume", label: "Resume" },
   { url: "#projects", label: "Projects" },
   { url: "#skills", label: "Skills" },
-  { url: "#testimonials", label: "Testimonials" },
+  { url: "#competances", label: "Competances" },
   { url: "#contact", label: "Contact" },
 ]
 
