@@ -1,3 +1,5 @@
+"use client"
+
 import { FaGithub, FaLinkedin, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 
 export default function Contact() {
@@ -11,16 +13,36 @@ export default function Contact() {
 				</div>
 
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="flex-1">
-						<div className="flex items-center gap-4">
-							<a href="#" aria-label="GitHub" className="p-3 bg-slate-800 rounded-lg text-white hover:text-cyan-300"><FaGithub className="w-6 h-6"/></a>
-							<a href="#" aria-label="LinkedIn" className="p-3 bg-slate-800 rounded-lg text-white hover:text-cyan-300"><FaLinkedin className="w-6 h-6"/></a>
-							<a href="#" aria-label="WhatsApp" className="p-3 bg-slate-800 rounded-lg text-white hover:text-cyan-300"><FaWhatsapp className="w-6 h-6"/></a>
-							<a href="#" aria-label="Facebook" className="p-3 bg-slate-800 rounded-lg text-white hover:text-cyan-300"><FaFacebook className="w-6 h-6"/></a>
+					<div className="w-full lg:w-1/3">
+						<div className="bg-slate-800 rounded-lg p-6 h-full flex flex-col items-start gap-4">
+							<h3 className="text-white font-semibold">Réseaux</h3>
+							<p className="text-slate-300 text-sm">Retrouvez-moi sur :</p>
+
+							<div className="flex flex-col gap-3 w-full">
+								<a href="#" aria-label="GitHub" className="flex items-center gap-3 p-3 bg-slate-700 rounded hover:bg-slate-600">
+									<FaGithub className="w-6 h-6 text-white" />
+									<span className="text-white">GitHub</span>
+								</a>
+
+								<a href="#" aria-label="LinkedIn" className="flex items-center gap-3 p-3 bg-slate-700 rounded hover:bg-slate-600">
+									<FaLinkedin className="w-6 h-6 text-white" />
+									<span className="text-white">LinkedIn</span>
+								</a>
+
+								<a href="#" aria-label="WhatsApp" className="flex items-center gap-3 p-3 bg-slate-700 rounded hover:bg-slate-600">
+									<FaWhatsapp className="w-6 h-6 text-white" />
+									<span className="text-white">WhatsApp</span>
+								</a>
+
+								<a href="#" aria-label="Facebook" className="flex items-center gap-3 p-3 bg-slate-700 rounded hover:bg-slate-600">
+									<FaFacebook className="w-6 h-6 text-white" />
+									<span className="text-white">Facebook</span>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div className="flex-1">
+					<div className="w-full lg:w-2/3">
 						<form className="bg-slate-800 rounded-lg p-6 flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
 							<label className="flex flex-col">
 								<span className="text-slate-300 mb-1">Votre email</span>
