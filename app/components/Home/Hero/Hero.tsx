@@ -8,7 +8,7 @@ export default function Hero() {
 
         <div className="flex-1 text-center lg:text-left">
           <p className="text-cyan-300 font-medium">Bonjour, je suis</p>
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mt-2">Votre Nom</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mt-2">ARISON Gypé Elysé</h1>
           <p className="mt-4 text-slate-300 max-w-xl">
             Je suis développeur web spécialisé en interfaces modernes et performantes. Je crée des expériences utilisateurs claires,
             accessibles et réactives — du design à la production.

@@ -10,7 +10,6 @@ import { useEffect, useState } from 'react'
 export const navLinks = [
   { url: "#home", label: "Home" },
   { url: "#services", label: "Services" },
-  { url: "#resume", label: "Resume" },
   { url: "#projects", label: "Projects" },
   { url: "#skills", label: "Skills" },
   { url: "#competances", label: "Competances" },

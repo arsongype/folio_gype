@@ -28,9 +28,8 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased bg-slate-950`}
       >
-        <Navbar/>
-        {/* <Hero/> */}
-        {children} 
+        <Navbar />
+        {children}
       </body>
     </html>
   );
