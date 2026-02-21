@@ -25,7 +25,7 @@ export default function MobileNav({ navOpen, setNavOpen }: MobileNavProps) {
                 {navLinks.map((link) => {
                     return (
                         <li key={link.url} className="w-full">
-                            <Link href={link.url} className="flex justify-center items-center text-xl font-medium text-white py-4 px-6 rounded-lg hover:bg-slate-700/50 hover:text-cyan-300 transition-all duration-300 border-b border-slate-700/30 w-full text-center">
+                            <Link href={link.url} className="flex justify-center items-center text-xl font-medium text-white py-4 px-6 rounded-lg hover:bg-slate-700/50 hover:text-cyan-300 transition-all duration-300 border-b border-slate-700/30 w-full text-center" onClick={() => setNavOpen(false)}>
                                 {link.label}
                             </Link>
                         </li>
